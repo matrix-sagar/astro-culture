@@ -33,11 +33,13 @@ const HoroscopeCard = () => {
 
             <View style={styles.horoscopeContainer}>
               <Text style={styles.horoscopeTitle}>Today's Horoscope</Text>
-              <ScrollView style={styles.horoscopeScroll}>
-                <Text style={styles.horoscopeText}>
-                  {data?.data?.horoscope_data}
-                </Text>
-              </ScrollView>
+              <View style={{ height: 120 }}>
+                <ScrollView style={styles.horoscopeScroll}>
+                  <Text style={styles.horoscopeText}>
+                    {data?.data?.horoscope_data}
+                  </Text>
+                </ScrollView>
+              </View>
             </View>
           </>
         )}
@@ -57,10 +59,10 @@ const styles = StyleSheet.create({
     shadowRadius: 8,
     elevation: 6,
     borderWidth: 1,
-    maxWidth: "70%",
+    maxWidth: "90%",
     borderColor: "rgba(255,255,255,0.2)",
     margin: 12,
-    maxHeight: "60%",
+    height: 350,
   },
   container: {
     alignItems: "center",
@@ -88,6 +90,7 @@ const styles = StyleSheet.create({
     paddingTop: 16,
     width: "100%",
     overflow: "hidden",
+    height: 150,
   },
   horoscopeTitle: {
     fontSize: 18,
@@ -97,7 +100,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   horoscopeScroll: {
-    maxHeight: 120, // 👈 fixed height area for scrolling text
+    height: 120,
   },
   horoscopeText: {
     fontSize: 15,
