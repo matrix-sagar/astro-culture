@@ -29,13 +29,13 @@ Users can view their horoscope, switch between zodiac signs, and maintain daily 
 ---
 
 ## 📂 Folder Structure
-src
-/components 
-/screens 
-/hooks
-/utils 
-/store 
-App.tsx
+- src
+-  /components 
+-  /screens 
+-  /hooks
+-  /utils 
+-  /store 
+- App.tsx
 
 ## 🚀 Getting Started
 
@@ -49,3 +49,16 @@ npm install
 yarn install
 
 npx expo start
+```
+
+🛠 Future Enhancements
+
+-  🔔 Push notifications: “Remind me to journal”
+
+-  📊 Journal analytics: Mood tracking & trends
+
+-  ☁️ Cloud sync for multi-device usage
+
+-  🎨 Dark mode & theme customization
+
+-  🌍 Multi-language support
