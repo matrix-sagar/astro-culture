@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { BookOpen } from "lucide-react-native";
 import { formatDate } from "../../utils/formatDate";
@@ -17,7 +17,7 @@ const RecentEntries = ({ entries }: any) => {
             <Text style={styles.entryDate}>
               {formatDate(entry.date, "short")}
             </Text>
-            <Text style={styles.entryIcon}>📖</Text>
+            <Text style={styles.entryIcon}>✨</Text>
           </View>
           <Text style={styles.entryText} numberOfLines={3}>
             {entry.content}
@@ -53,4 +53,4 @@ const styles = StyleSheet.create({
   entryText: { color: "#aaa", fontSize: 14 },
 });
 
-export default RecentEntries;
+export default memo(RecentEntries);

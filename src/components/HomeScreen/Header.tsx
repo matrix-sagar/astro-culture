@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
 
 const Header = () => {
@@ -17,7 +18,9 @@ const Header = () => {
           source={require("../../assets/sparkle-gold.png")}
           style={styles.imageStyles}
         />
-        <Text style={styles.mainHeader} numberOfLines={1} >Astro Journal</Text>
+        <Text style={styles.mainHeader} numberOfLines={1}>
+          Astro Journal
+        </Text>
         <Image
           source={require("../../assets/sparkle-gold.png")}
           style={styles.imageStyles}
@@ -35,7 +38,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     gap: 6,
     marginTop: 60,
-    width:'100%'
+    width: "100%",
   },
 
   headerWrapper: {
@@ -44,14 +47,14 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     gap: 12,
-    flexGrow:1,
+    flexGrow: 1,
   },
   mainHeader: {
     fontSize: 30,
     fontWeight: 700,
-    overflow:'visible',
+    overflow: "visible",
     color: "linear-gradient(135deg, hsl(45 100% 65%), hsl(35 90% 60%))",
-    minWidth:185
+    minWidth: 185,
   },
   dateText: {
     color: "#94a0b8",
@@ -61,4 +64,4 @@ const styles = StyleSheet.create({
     width: 30,
   },
 });
-export default Header;
+export default memo(Header);

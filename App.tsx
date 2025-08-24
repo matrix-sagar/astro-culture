@@ -1,4 +1,4 @@
-import { ImageBackground, SafeAreaView, StyleSheet } from "react-native";
+import { SafeAreaView, StyleSheet } from "react-native";
 import HomeScreen from "./src/screens/HomeScreen";
 import JournalScreen from "./src/screens/JournalScreen";
 import { createStaticNavigation } from "@react-navigation/native";

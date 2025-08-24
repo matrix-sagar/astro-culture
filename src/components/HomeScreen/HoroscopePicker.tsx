@@ -1,7 +1,6 @@
-import React, { useCallback, useState } from "react";
-import { Image, StyleSheet, Text, View } from "react-native";
+import React, { memo, useCallback } from "react";
+import { StyleSheet, Text, View } from "react-native";
 import { Dropdown } from "react-native-element-dropdown";
-import AntDesign from "@expo/vector-icons/AntDesign";
 import { ZODIAC_SIGNS } from "../../constants/constants";
 import { useDispatch, useSelector } from "react-redux";
 import { setSign } from "../../store/signSlice";
@@ -57,7 +56,7 @@ const DropdownComponent = () => {
   );
 };
 
-export default DropdownComponent;
+export default memo(DropdownComponent);
 
 const styles = StyleSheet.create({
   dropdown: {

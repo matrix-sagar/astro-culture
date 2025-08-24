@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React, { memo, useEffect } from "react";
 import { View, Text, StyleSheet, ScrollView } from "react-native";
-import { ZODIAC_SIGNS } from "../../constants/constants";
 import useApi from "../../hooks/useApi";
 import { useSelector } from "react-redux";
 
@@ -110,4 +109,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HoroscopeCard;
+export default memo(HoroscopeCard);
