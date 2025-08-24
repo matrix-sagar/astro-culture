@@ -6,10 +6,15 @@ Users can view their horoscope, switch between zodiac signs, and maintain daily 
 ---
 
 
-https://github.com/user-attachments/assets/c049558b-08ab-4aa6-8490-6a9cb3449994
 
 
-https://github.com/user-attachments/assets/0c312d16-2145-4182-8373-07040af8994b
+https://github.com/user-attachments/assets/c23be1d4-2702-4dfe-ad6d-3242367b925f
+
+
+
+https://github.com/user-attachments/assets/c41cfbac-8f53-4283-8b64-5ef171460888
+
+
 
 
 ## ✨ Features
