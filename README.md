@@ -30,25 +30,25 @@ Users can view their horoscope, switch between zodiac signs, and maintain daily 
 
 ## 📂 Folder Structure
 - src
--  /components 
--  /screens 
--  /hooks
--  /utils 
--  /store 
+  -  /components 
+  -  /screens 
+  -  /hooks
+  -  /utils 
+  -  /store 
 - App.tsx
 
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the repo
 ```bash
-git clone https://github.com/<your-username>/astro-journal-app.git
+git clone https://github.com/matrix-sagar/astro-culture.git
 cd astro-journal-app
 
 npm install
 # or
 yarn install
 
-npx expo start
+npx run start
 ```
 
 🛠 Future Enhancements
