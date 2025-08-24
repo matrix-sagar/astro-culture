@@ -52,6 +52,8 @@ const DropdownComponent = () => {
       renderLeftIcon={() => <Text style={styles.iconStyle}>{sign.symbol}</Text>}
       renderItem={getRenderItem}
       containerStyle={styles.containerStyle}
+      activeColor="#2b2b3b"
+      itemContainerStyle={styles.itemContainerStyle}
     />
   );
 };
@@ -62,13 +64,10 @@ const styles = StyleSheet.create({
   dropdown: {
     margin: 16,
     height: 50,
-    width: 240,
+    width: "80%",
     padding: 12,
-    borderBottomColor: "gray",
-    borderBottomWidth: 0.5,
     borderRadius: 8,
-    backgroundColor:
-      "linear-gradient(135deg, hsl(260 73% 52%), hsl(280 65% 45%), hsl(240 50% 30%))",
+    backgroundColor: "#2b2b3b",
   },
   subTextColor: { color: "#94a0b8" },
   icon: {
@@ -83,8 +82,8 @@ const styles = StyleSheet.create({
   },
   containerStyle: {
     backgroundColor: "#2b2b3b",
-    borderBottomLeftRadius: 8,
-    borderBottomRightRadius: 8,
+    borderRadius: 8,
+    borderWidth: 0,
   },
   iconStyle: {
     width: 30,
@@ -97,5 +96,8 @@ const styles = StyleSheet.create({
   inputSearchStyle: {
     height: 40,
     fontSize: 16,
+    borderWidth: 0,
+    color: "linear-gradient(135deg, hsl(45 100% 65%), hsl(35 90% 60%))",
   },
+  itemContainerStyle: {},
 });
