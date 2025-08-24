@@ -62,3 +62,5 @@ npx run start
 -  🎨 Dark mode & theme customization
 
 -  🌍 Multi-language support
+
+-  ✋🏻 Palm Reading with optical recognition leveraging MLKit on Android and Core ML on IOS 
