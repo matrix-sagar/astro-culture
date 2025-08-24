@@ -5,6 +5,13 @@ Users can view their horoscope, switch between zodiac signs, and maintain daily 
 
 ---
 
+
+https://github.com/user-attachments/assets/c049558b-08ab-4aa6-8490-6a9cb3449994
+
+
+https://github.com/user-attachments/assets/0c312d16-2145-4182-8373-07040af8994b
+
+
 ## ✨ Features
 - 📅 **Home Screen**
   - Shows today’s date & horoscope for the selected zodiac sign  
