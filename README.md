@@ -54,7 +54,7 @@ https://github.com/user-attachments/assets/c41cfbac-8f53-4283-8b64-5ef171460888
 ### 1️⃣ Clone the repo
 ```bash
 git clone https://github.com/matrix-sagar/astro-culture.git
-cd astro-journal-app
+cd astro-culture
 
 npm install
 # or
